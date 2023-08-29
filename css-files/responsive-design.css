@@ -1,0 +1,234 @@
+@media(max-width:500px){
+  /*general responsive design*/
+  .section1, 
+  .section2{
+    width:400px;
+    margin-left: 45px;
+    margin-right: 20px;
+  }
+  /*sidebar responsive design*/
+  .sidebar{
+    display: none;
+  }
+  /*Header responsive design*/
+  .header-left-section{
+    display: none;
+  }
+  .header-right-section{
+    padding-left: 10px;
+    padding-right:10px;
+  }
+  .option6{
+    display: none;
+  }
+  /*main respinsive design*/
+  .image-a{
+    margin-top:20px;
+    margin-left: 10px;
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .image-container{
+    padding-top:12px;
+  }
+  .lower-container-type2{
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .lower-container-type2 img{
+    height: 180px;
+    border-radius: 2px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  /*footer responsive design*/
+  .footer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom:50px;
+  }
+  .right-section,
+  .left-section,
+  .middle-section{
+    margin-bottom: 25px;
+  }
+  .left-section{
+    padding-left: 70px;
+  }
+  .right-section{
+    padding-right: 10px;
+  }
+}
+
+
+@media(min-width:501px) and (max-width:700px)  {
+  /*general responsive design */
+  .section1, 
+  .section2{
+    margin-left: 45px;
+    margin-right: 20px;
+  }
+
+  /*sidebar responsive design*/
+  .sidebar{
+    display: none;
+  }
+
+  /*Header responsive design*/
+  .header-left-section{
+    display: none;
+  }
+  .header-right-section{
+    padding-left: 10px;
+    padding-right:10px;
+  }
+  .option6{
+    display: none;
+  }
+
+  /*main responsive design*/
+  .image-a{
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .image-container{
+    padding-top:12px;
+  }
+  .lower-container-type2{
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .lower-container-type2 img{
+    height: 180px;
+    border-radius: 2px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  /*footer responsive design*/
+  .footer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom:50px;
+  }
+  .right-section,
+  .left-section,
+  .middle-section{
+    margin-bottom: 25px;
+  }
+  .left-section{
+    padding-left: 70px;
+  }
+  .right-section{
+    padding-right: 10px;
+  }
+}
+
+
+@media(min-width:701px) and (max-width:900px)  {
+  /*Header responsive design*/
+  .header-right-section{
+    padding-left: 30px;
+    padding-right:10px;
+  }
+  .option2, 
+  .option3, 
+  .option4,
+  .option5{
+    min-width: 120px;
+  }
+  .option6{
+    display: none;
+  }  
+
+  /*sidebar responsive design*/
+  .sidebar p{
+    margin-bottom: 250px;
+  }
+  .sidebar{
+    overflow-y: scroll;
+  }
+  /*        width */
+  .sidebar::-webkit-scrollbar {
+    width: 8px;
+  }
+  /*        Track */
+  .sidebar::-webkit-scrollbar-track {
+    background-color: #f1f1f1; 
+  }
+  /*        Handle */
+  .sidebar::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    transition: background-color 1s;
+  }
+  /*         Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; 
+  }
+  /*main responsive design*/
+  .section1, 
+  .section2{
+    margin-left: 245px;
+    margin-right: 20px;
+  }
+  .image-a{
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .image-container{
+    padding-top:12px;
+  }
+  .lower-container-type2{
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .lower-container-type2 img{
+    height: 180px;
+    border-radius: 2px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  /*footer responsive design*/
+  .footer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom:50px;
+  }
+  .right-section,
+  .left-section,
+  .middle-section{
+    margin-bottom: 25px;
+  }
+  .left-section{
+    padding-left: 70px;
+  }
+  .right-section{
+    padding-right: 10px;
+  }
+}
+
+
+@media(min-width:901px){
+.option2, 
+.option3, 
+.option4,
+.option5,
+.option6{
+  min-width: 125px;
+}
+}

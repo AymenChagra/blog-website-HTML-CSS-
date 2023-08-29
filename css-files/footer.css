@@ -1,0 +1,67 @@
+.footer{
+  display:flex;
+  flex-direction: row;
+  height:70px;
+  background-color: #b9c1e2;
+  margin-top: auto;
+  z-index:200;
+}
+.right-section,
+.left-section,
+.middle-section{
+  color: #333333;
+  flex:1;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-section span{
+  margin-right:80px;
+  /* spacing the rigth-section to 80px to the left*/
+}
+.left-section{
+  font-weight:700;
+  font-size: 14px;
+}
+.middle-section-feedback{
+  font-weight:700;
+  font-size: 14px;
+  margin-right:4px;
+  margin-left: 12px;
+}
+.middle-section-email{
+  font-weight:700;
+  font-size: 14px;
+  margin-right:8px;
+  margin-left: 8px;
+  cursor:pointer;
+  transition: color 0.15;
+}
+.middle-section-email:hover{
+  text-decoration: underline;
+  color: black;
+}
+.fa-envelope{
+  font-size: 18px;
+  margin-right:8px;
+}
+.right-section span{
+  font-size: 14px;
+  font-weight:700;
+}
+.fa-brands{
+  color:#333333;
+  font-size: 20px;
+  text-align: center;
+  margin-right:8px;
+  margin-left: 8px;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+.fa-facebook{ 
+  /* spacing the rigth-section to 80px to the right*/
+  margin-left:20px;
+}
+.fa-brands:hover{
+  color: black;
+}
